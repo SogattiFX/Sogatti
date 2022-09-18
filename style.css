@@ -1,5 +1,5 @@
 @charset "utf-8";
-body {background-color:#000000; background-repeat:repeat;}
+body {background-color: #000000; background-repeat:repeat;}
 h1 {color: #f99; font-family: 'Yomogi', cursive; font-size: 40px; text-align:center; border-width:thick; border-style:dashed;}
 h2 {color: #f99; font-family: 'Yomogi', cursive; font-size: 20px; text-align:center;}
 h3 {color: #f99; font-family: 'Yomogi', cursive; font-size: 20px; text-align:center;}
