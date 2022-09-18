@@ -1,3 +1,1 @@
-# Sogatti
-Intro
-Test
+# Sogattiの公式サイト
