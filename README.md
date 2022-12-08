@@ -1,3 +1,3 @@
-# Sogattiの公式サイト
+# Sogatti Official site
 
-<a href="https://sogattifx.github.io/Sogatti/">今すぐアクセス！</a>
+<a href="https://sogattifx.github.io/Sogatti/"></a>
