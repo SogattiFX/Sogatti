@@ -1,21 +1,21 @@
 @charset "utf-8";
-body {background-color: #3f3f3f}
-  {background-repeat: repeat;}
-h1 {color: #00afcc; font-family: 'Yomogi', cursive; font-size: 40px; text-align:center; border-width:thick; border-style:dashed;}
-h2 {color: #00afcc; font-family: 'Yomogi', cursive; font-size: 20px; text-align:center;}
-h3 {color: #ffbf7f; font-family: 'Yomogi', cursive; font-size: 20px; text-align:center;}
-a {color: #00afcc; font-family: 'Yomogi', cursive; font-size: 20px; text-align:center;
-display: block;
-  text-decoration: none;
-  color: white;
-  margin-right: 35px;}
-div.center {text-align: center;}
-nav {
+
+h1{color: white;}
+ul{color: white;}
+/* header css */
+header {
+  display: flex;
   width: 100%;
-  height: 70px;
-  background-color: dimgray;
-padding-top: 5px;
-  box-sizing: border-box;}
-ul {display: flex;}
-li {list-style: none;}
-a:hover {color: #00afcc;}
+  height: 100px;
+  position:fixed;
+top:0px;
+  background-color: rgba(0,0,0,0.6);
+  align-items: center;
+}
+ 
+.title {margin-right: auto;}
+ 
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;}
