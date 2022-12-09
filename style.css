@@ -1,11 +1,14 @@
-@charset "utf-8";
 
-h1{color: white;}
-ul{color: white;}
+h1{color: white; font-family: 'Caveat', cursive;text-indent: 1em;}
+a{color: black;
+text-decoration: none; font-family: 'Caveat', cursive;}
+body{margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+}
 /* header css */
 header {
   display: flex;
   width: 100%;
+/*headerの太さ*/  
   height: 100px;
   position:fixed;
 top:0px;
@@ -15,10 +18,12 @@ top:0px;
  
 .title {
   margin-right: auto;
+  margin-right: 480px;
 }
  
 .menu-item {
   list-style: none;
   display: inline-block;
+/*項目の間隔*/  
   padding: 20px;
 }
