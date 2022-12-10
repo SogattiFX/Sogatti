@@ -30,8 +30,8 @@ top:0px;
 /*Logoの位置*/
  p{
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 10px;
   width: 500px;
-  height: 510px;
+  height: 500px;
 }
