@@ -27,3 +27,11 @@ top:0px;
 /*項目の間隔*/  
   padding: 20px;
 }
+
+.class2 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 250px;
+  height: 100px;
+}
