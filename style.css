@@ -34,13 +34,11 @@ top:0px;
   background-color: #da3f6d;
   align-items: center;}
  
-.title {
-  margin-right: auto;
+.title {margin-right: auto;
 /*title幅*/  
-  margin-right: 700px;}
+  margin-right: 350px;}
  
-.menu-item {
-  list-style: none;
+.menu-item {list-style: none;
   display: inline-block;
 /*項目の間隔*/  
   padding: 20px;}
