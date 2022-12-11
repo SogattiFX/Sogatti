@@ -1,7 +1,7 @@
 @charset "utf-8";
-h1{color: white; font-family: 'Caveat', cursive; padding: 30px 100px;}
+h1{color: white; font-family: 'Montserrat'; padding: 30px 100px; font-size: 2rem;}
 a{color: black;
-text-decoration: none; font-family: 'Caveat', cursive;}
+text-decoration: none; font-family: 'Montserrat';}
 body{margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;}
 
 /* header css */
