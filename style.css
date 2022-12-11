@@ -1,7 +1,25 @@
 @charset "utf-8";
-h1{color: white; font-family: 'Montserrat'; padding: 30px 100px; font-size: 2rem;}
+h1{color: black; font-family: 'Montserrat'; padding: 30px 100px; font-size: 2rem;}
 a{color: black;
-text-decoration: none; font-family: 'Montserrat';}
+text-decoration: none; font-family: 'Montserrat'; display: inline-block;
+  position: relative;
+  overflow: hidden;}
+/*bar movement start*/
+a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+/*line*/  
+  height: 2px;
+  background-color: black;
+  transform: translate(-100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1)0.4s;
+  content: "";}
+
+a:hover:after {
+  transform: translate(0, 0);}
+/*bar movement end*/
 
 body{margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;}
 
@@ -18,7 +36,8 @@ top:0px;
  
 .title {
   margin-right: auto;
-  margin-right: 260px;}
+/*title幅*/  
+  margin-right: 450px;}
  
 .menu-item {
   list-style: none;
