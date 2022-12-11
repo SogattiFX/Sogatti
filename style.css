@@ -2,6 +2,7 @@
 h1{color: white; font-family: 'Montserrat'; padding: 30px 100px; font-size: 2rem;}
 a{color: black;
 text-decoration: none; font-family: 'Montserrat';}
+
 body{margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;}
 
 /* header css */
@@ -17,7 +18,7 @@ top:0px;
  
 .title {
   margin-right: auto;
-  margin-right: 300px;}
+  margin-right: 260px;}
  
 .menu-item {
   list-style: none;
@@ -28,7 +29,7 @@ top:0px;
 /*Logoの位置*/
  p{
   position: absolute;
-  top: 5px;
+  top: 1px;
   left: 10px;
   width: 500px;
   height: 500px;}
